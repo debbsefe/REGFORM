@@ -1,0 +1,34 @@
+input{
+    margin:"10px 0px 5px 0px";
+}
+body{
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.jumbotron{
+    padding:2px 0px 2px 2px;
+    background:#B00000; 
+    color:white;
+}
+
+.jumbotron h1{
+    font-weight:bold;
+    text-align:center;
+}
+
+.side-image{
+    float:right;
+}
+
+.content h2{
+    font-weight:bold;
+}
+.contact-form .asterisk{
+    color:red;
+    font-weight:bold;
+}
+
+.contact-form .subtitles{
+    text-align: center; 
+    margin: 5px;
+}

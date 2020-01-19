@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>REGISTRATION FORM</title>
+    <link rel="stylesheet" href="reg.css">
+</head>
+
+<body>
+    <main class ="container">
+        <div class="row">
+       <!--HEADER-->
+       <header class="jumbotron">
+           <h1><i>LEE ACCESSORIES</i></h1>
+        </header>
+
+       <!--CONTENT-->
+
+       <section class="content col-xs-12">
+           <h2>Masterclass Registration</h2><br>
+           <p>Limited seats available! Register now for free to save a spot</p>
+           <br><hr>
+        </section>
+
+        <! SIDE-IMAGE-->
+
+       <aside class="side-image col-md-6">
+           <img src= "image1.jpg" class="img-responsive">
+        </aside>
+
+       <!--CONTACT FORM-->
+
+       <div class="contact-form col-md-6 col-xs-12">
+        <form action="index.php" method="post">
+        <p><strong>Name</strong> <span class ="asterisk">*</span></p>
+        
+        <div class="col-md-2">
+            <select name="title" id="select" class="form-control">
+                    <option>Mr</option>
+                    <option>Mrs</option>
+                    <option>Miss</option>
+            </select>  
+            <p class="subtitles">Title</p>
+        </div>
+
+        <div class="col-md-5">
+            <input class="form-control" type="text" name="firstname">
+            <p class="subtitles">First</p>
+        </div>
+
+        <div class="col-md-5">
+            <input class="form-control"type="text" name="lastname">
+            <p class="subtitles">Last</p>
+        </div>
+            <br><br>
+        <p><strong>Email Address</strong> <span class="asterisk">*</span></p>
+        <input class="form-control" type="email"> <br>
+
+        <p><label>Gender</label> <span class="asterisk">*</span></p>
+        <select name="Gender" id="select" class="form-control">
+                <option>MALE</option>
+                <option>FEMALE</option> 
+        </select> <br>   
+
+        <p><label>State of residence</label> <span class="asterisk">*</span></p>
+        <select name="states_of_nigeria" id="select" class="form-control">
+                 <option>-- SELECT --</option>
+                <option>ABUJA FCT</option>
+                <option>ABIA</option>
+                <option>ADAMAWA</option>
+                <option>AKWA IBOM</option>
+                <option>ANAMBRA</option>
+                <option>BAUCHI</option>
+                <option>BAYELSA</option>
+                <option>BENUE</option>
+                <option>BORNO</option>
+                <option>CROSS RIVER</option>
+                <option>DELTA</option>
+                <option>EBONYI</option>
+                <option>EDO</option>
+                <option>EKITI</option>
+                <option>ENUGU</option>
+                <option>GOMBE</option>
+                <option>IMO</option>
+                <option>JIGAWA</option>
+                <option>KADUNA</option>
+                <option>KANO</option>
+                <option>KATSINA</option>
+                <option>KEBBI</option>
+                <option>KOGI</option>
+                <option>KWARA</option>
+                <option>LAGOS</option>
+                <option>NASSARAWA</option>
+                <option>NIGER</option>
+                <option>OGUN</option>
+                <option>ONDO</option>
+                <option>OSUN</option>
+                <option>OYO</option>
+                <option>PLATEAU</option>
+                <option>RIVERS</option>
+                <option>SOKOTO</option>
+                <option>TARABA</option>
+                <option>YOBE</option>
+                <option>ZAMFARA</option>
+                </select> <br>   
+
+        <p><strong>Zipcode</strong></p>
+        <input class="form-control" type="text" name="zipcode"><br><br>
+
+        <button type="submit" class="btn btn-primary col-xs-12"> <i class=
+            "fas fa-envelope"></i>Register</button>
+
+     </form> 
+     </div> <!-- end of main row-->
+    </main>
+</body>
+</html>
